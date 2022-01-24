@@ -1,7 +1,7 @@
 # Terraform_Shared
 
 #Task 1 
-1) create a branch of master called ecr_test 
+1) create a branch of master called dynamodb_test 
 1) Define AWS Provider 
 2) Define an  DynamoDB with the values set: 
 
