@@ -3,7 +3,19 @@
 #Task 1 
 1) create a branch of master called ecr_test 
 1) Define AWS Provider 
-2) Define an  ECR repo resource 
+2) Define an  DynamoDB with the values set: `  provider = aws.us-east-1
+
+  hash_key         = "myAttribute"
+  name             = "myTable"
+  stream_enabled   = true
+  stream_view_type = "NEW_AND_OLD_IMAGES"
+  read_capacity    = 1
+  write_capacity   = 1
+
+  attribute {
+    name = "myAttribute"
+    type = "S"
+  } `
 3) Terraform init,plan and apply.
 4) Check AWS
 5) Commit your changes and push it to git
