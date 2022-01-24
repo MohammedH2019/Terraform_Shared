@@ -3,7 +3,9 @@
 #Task 1 
 1) create a branch of master called ecr_test 
 1) Define AWS Provider 
-2) Define an  DynamoDB with the values set: `  provider = aws.us-east-1
+2) Define an  DynamoDB with the values set: 
+
+`provider = aws.us-east-1
 
   hash_key         = "myAttribute"
   name             = "myTable"
