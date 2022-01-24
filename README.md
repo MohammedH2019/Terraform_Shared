@@ -17,14 +17,15 @@
   attribute {
     name = "myAttribute"
     type = "S"
-  } ```
+  }
+```  
 3) Terraform init,plan and apply.
 4) Check AWS
 5) Commit your changes and push it to git
 5) create a PR to merge your branch into master
 
 #Bonus work :
-Replace the ECR repo name with a input variable.
+Replace the hard-coded values with a input variable.
 
 Ref: https://www.terraform.io/docs/language/values/variables.html
 
