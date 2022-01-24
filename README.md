@@ -5,7 +5,7 @@
 1) Define AWS Provider 
 2) Define an  DynamoDB with the values set: 
 
-`provider = aws.us-east-1
+```provider = aws.us-east-1
 
   hash_key         = "myAttribute"
   name             = "myTable"
@@ -17,7 +17,7 @@
   attribute {
     name = "myAttribute"
     type = "S"
-  } `
+  } ```
 3) Terraform init,plan and apply.
 4) Check AWS
 5) Commit your changes and push it to git
